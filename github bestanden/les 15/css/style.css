@@ -1,1 +1,57 @@
-
+body{
+    color: white;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.header {
+    padding: 5px;
+    text-align: center;
+    background: #1a42bc;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.content {padding:5px;}
+.footer {
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: rgb(135, 138, 235);
+    ul a{
+    color: white;
+    text-decoration: none;
+    }
+    li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid green;
+    border-right: 1px solid green;
+    background-color: olive;
+    }
+li:hover{
+    background-color: lightgreen;
+    border-style: none;
+    }
+h1{
+    margin-left: 200px;
+    }
+input[type="text"], input[type="email"], input[type="message"] textarea, select, button{
+    display: block;
+    margin: 15px 0px; width: 400px;
+    box-sizing: border-box;
+    textarea{
+    height: 100px;
+    padding: 5px 4px;
+    }
