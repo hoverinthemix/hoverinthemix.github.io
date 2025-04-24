@@ -19,51 +19,51 @@
   float: left;
 }
 .col-1 {
-  display: table
+  display: table;
   width: 100%;
   text-align: left;
   flex: 0 0 25%;
 }
 .col-2 {
-  display: table
+  display: table;
   width: 100%;
   text-align: left;
   flex: 0 0 75%;
 }
 .col-3 {
-  display: table
+  display: table;
   width: 100%;
 }
 .col-4 {
-  display: table
+  display: table;
   width: 100%;
 }
 .col-5 {
-  display: table
+  display: table;
   width: 100%;
 }
 .col-6 {
-  display: table
+  display: table;
   width: 100%;
 }
 .col-7 {
-  display: table
+  display: table;
   width: 100%;
 }
 .col-8 {
-  display: table
+  display: table;
   width: 100%;
 }
 .col-9 {
-  display: table
+  display: table;
   width: 100%;
 }
 .col-10 {
-  display: table
+  display: table;
   width: 100%;
 }
 .col-11 {
-  display: table
+  display: table;
   width: 100%;
 }
 
