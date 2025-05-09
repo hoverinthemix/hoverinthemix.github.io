@@ -1,14 +1,26 @@
 .header {
   background-color: #5d67aa;
   color: white;
-  width: 576px;
+  max-width: 576px;
+  margin: auto;
   text-align: center;
-}
-body {
-  width: 576px;
 }
 
 .body {
+  background-color: #5d67aa;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.body > div {
+  margin: auto;
+}
+
+footer {
+  position: relative;
+  max-width: 576px;
+  min-height: 200px;
+  margin: auto;
   background-color: #5d67aa;
   color: white;
   text-align: center;
@@ -25,13 +37,40 @@ body {
   height: 50px;
 }
 
+.menubutton:hover {
+  background-color: rgb(128, 43, 226);
+  color: white;
+}
+
 a {
   color: white;
 }
 
-.menubutton:hover {
-  background-color: rgb(128, 43, 226);
-  color: white;
+.container {
+  position: flex;
+  clear: both;
+  justify-items: start;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #5d67aa;
+  padding: 10px;
+  max-width: 576px;
+  margin: auto;
+}
+
+.containercontactformulier {
+  max-width: 576px;
+  margin: auto;
+  background-color: #5d67aa;
+}
+
+.container > div {
+  background-color: #5d67aa;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  max-width: 576px;
+  margin: auto;
 }
 
 .buttoncontainer {
@@ -62,15 +101,6 @@ a {
   color: white;
 }
 
-.container {
-  height: 200px;
-  position: flex;
-  clear: both;
-  display: flex;
-  gap: 20px;
-  justify-items: start;
-}
-
 .buttons {
   display: flex;
   gap: 20px;
@@ -80,19 +110,10 @@ a {
 
 .forminput input {
   text-align: left;
-  width: 576px;
-  clear: both;
-  background-color: #5d67aa;
-  color: white;
-}
-
-.invoervelden {
-  color: black;
-  text-align: center;
-  margin-top: 15px;
   display: flex;
-  justify-content: center;
-  width: 576px;
+  width: 560px;
+  background-color: #5daaa4;
+  color: white;
 }
 
 .opmerkingen {
@@ -104,11 +125,26 @@ a {
   align-content: right;
 }
 
-.footer {
-  position: fixed;
+.afbeeldingen {
+  position: relative;
   width: 576px;
-  padding: 5px;
-  background-color: #5d67aa;
-  color: white;
   text-align: center;
+}
+
+.tekstbody {
+  background-color: #5d67aa;
+  max-width: 576px;
+  margin: auto;
+  color: white;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: red;
+  }
 }
