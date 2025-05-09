@@ -4,53 +4,52 @@
     <meta charset="utf-8" />
     <title>Les 22</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+crossorigin="anonymous">
   </head>
   <body>
     <div class="header">
-      <h2>Contactformulier</h2>
-    </div>
-    <div class="buttons">
-      <button class="menubutton">
-        <a href="./index.html">Home</a>
-      </button>
-      <button class="menubutton">
-        <a href="./overmij.html">Over Mij</a>
-      </button>
-      <button class="menubutton">
-        <a href="./contact.html">Contact</a>
-      </button>
-    </div>
-    <div class="">
-      <div class="">
-        <div class="forminput">
-          <label for="fname">Voornaam:</label>
-          <input type="text" id="fname" name="fname" /><br /><br />
-
-          <label for="lname">Achternaam:</label>
-          <input type="text" id="lname" name="lname" /><br /><br />
-
-          <label for="address">Adres:</label>
-          <input type="text" id="address" name="address" /><br /><br />
-
-          <label for="woonplaats">Woonplaats:</label>
-          <input type="text" id="woonplaats" name="woonplaats" /><br /><br />
-
-          <label for="phone">Telefoonnummer:</label>
-          <input type="tel" id="phone" name="phone" placeholder="+31 6 12345678" /><br /><br />
-
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" /><br /><br />
-
-          <label for="opmerkingen">Opmerkingen:</label>
-          <input class="opmerkingen" />
-          <type ="text" id="opmerkingen" name="opmerkingen" /><br /><br />
-
-          <input type="submit" value="Submit" /><br /><br />
-        </div>
+      <div class="tekstbody">
+        <h2>Contactformulier</h2>
+      </div>
+      <div class="buttons">
+        <button class="menubutton">
+          <a href="./index.html">Home</a>
+        </button>
+        <button class="menubutton">
+          <a href="./overmij.html">Over Mij</a>
+        </button>
+        <button class="menubutton">
+          <a href="./contact.html">Contact</a>
+        </button>
       </div>
     </div>
-    <footer>
+    <div class="containercontactformulier">
+      <form class="forminput">
+               <label for="fname">Voornaam:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+
+        <label for="lname">Achternaam:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <label for="opmerkingen">Opmerkingen:</label>
+        <input class="opmerkingen" />
+        <input type="text" id="opmerkingen" name="opmerkingen" /><br /><br />
+
+        <input type="submit" value="Submit" /><br /><br />
+      </form>
+    </div>
+        <footer>
       <div class="footer">© Erik Hover</div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity=
+"sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous"></script>
   </body>
 </html>
