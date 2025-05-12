@@ -76,6 +76,7 @@ a {
 .buttoncontainer {
   text-align: center;
   align-items: center;
+  background-color: #59ad73;
   margin-top: 15px;
   display: flex;
   flex-direction: column;
@@ -87,7 +88,7 @@ a {
   margin: 10px;
   border: none;
   display: block;
-  background-color: #5d67aa;
+  background-color: #59ad73;
   color: white;
   text-align: center;
   align-items: center;
@@ -147,4 +148,8 @@ img {
   body {
     background-color: red;
   }
+}
+
+.label {
+  color: white;
 }
