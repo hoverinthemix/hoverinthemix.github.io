@@ -48,7 +48,7 @@ a {
 
 .container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 100px 100px 100px;
   background-color: #5d67aa;
   max-width: 576px;
   margin: 0 auto;
