@@ -47,9 +47,6 @@ a {
 }
 
 .container {
-  position: flex;
-  clear: both;
-  justify-items: start;
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: #5d67aa;
