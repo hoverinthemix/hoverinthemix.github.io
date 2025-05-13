@@ -56,7 +56,7 @@ a {
   max-width: 576px;
   width: 100%;
   gap: 10px;
-  }
+}
 
 .containercontactformulier {
   max-width: 576px;
@@ -129,6 +129,7 @@ a {
 .afbeeldingen {
   position: relative;
   max-width: 576px;
+  width: 100%;
   text-align: center;
 }
 
