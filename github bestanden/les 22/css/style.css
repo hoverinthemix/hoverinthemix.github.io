@@ -147,7 +147,6 @@ img {
 
 @media (max-width: 576px) {
   .container {
-    max-width: 100%;
     margin: 0;
     border-radius: 0;
   }
