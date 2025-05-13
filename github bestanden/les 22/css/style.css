@@ -48,12 +48,11 @@ a {
 
 .container {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
+  grid-template-columns: 75px 75px 75px;
   background-color: #5d67aa;
   max-width: 576px;
   width: 100%;
-  align-content: left;
-}
+  }
 
 .containercontactformulier {
   max-width: 576px;
