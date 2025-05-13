@@ -55,7 +55,8 @@ a {
   background-color: #5d67aa;
   padding: 10px;
   max-width: 576px;
-  margin: auto;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .containercontactformulier {
@@ -144,12 +145,14 @@ img {
   height: 100px;
 }
 
-@media only screen and (max-width: 576px) {
-  body {
-    background-color: red;
-  }
-}
-
 .label {
   color: white;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
 }
