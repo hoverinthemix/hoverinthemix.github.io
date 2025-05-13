@@ -143,6 +143,7 @@ img {
 
 .label {
   color: white;
+  max-width: 576px;
 }
 
 @media (max-width: 576px) {
