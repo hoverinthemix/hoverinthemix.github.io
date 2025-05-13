@@ -128,7 +128,7 @@ a {
 }
 
 .afbeeldingen {
-  position: relative;
+  position: fixed;
   width: 576px;
   text-align: center;
 }
