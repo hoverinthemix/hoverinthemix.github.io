@@ -132,7 +132,6 @@ a:hover {
   position: relative;
   max-width: 576px;
   width: 100%;
-  text-align: center;
 }
 
 .tekstbody {
@@ -148,7 +147,7 @@ img {
   width: 150px;
   height: 100px;
   padding: 8px;
-  }
+}
 
 .label {
   color: white;
