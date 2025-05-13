@@ -11,7 +11,10 @@
   color: white;
   text-align: center;
   justify-content: center;
+  max-width: 576px;
+  width: 100%;
 }
+
 .body > div {
   margin: auto;
 }
