@@ -137,6 +137,7 @@ a {
   max-width: 576px;
   margin: auto;
   color: white;
+  width: 100%;
 }
 
 img {
