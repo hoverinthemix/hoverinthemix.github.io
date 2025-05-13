@@ -124,7 +124,7 @@ a {
 }
 
 .afbeeldingen {
-  position: static;
+  position: relative;
   max-width: 576px;
   text-align: center;
 }
@@ -137,8 +137,8 @@ a {
 }
 
 img {
-  width: 100px;
-  height: 75px;
+  width: 150px;
+  height: 100px;
 }
 
 .label {
