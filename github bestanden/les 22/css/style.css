@@ -50,7 +50,6 @@ a {
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: #5d67aa;
-  padding: 10px;
   max-width: 576px;
   margin: 0 auto;
   width: 100%;
