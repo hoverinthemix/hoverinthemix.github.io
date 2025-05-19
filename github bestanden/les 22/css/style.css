@@ -158,8 +158,9 @@ img {
 body {
   background-color: #5d67aa;
 }
+
 @media only screen and (min-width: 576px) {
-  body {
-    background-color: red;
+  .container {
+    max-width: 576px;
   }
 }
