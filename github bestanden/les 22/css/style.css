@@ -1,7 +1,7 @@
 .header {
   background-color: #5d67aa;
   color: white;
-  width: 576px;
+  max-width: 576px;
   margin: auto;
   text-align: center;
 }
