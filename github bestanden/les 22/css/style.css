@@ -8,7 +8,7 @@
 
 .body {
   background-color: #5d67aa;
-  width: 576px;
+  max-width: 576px;
   color: white;
   text-align: center;
   justify-content: center;
