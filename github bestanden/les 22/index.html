@@ -1,71 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
+.header {
+  background-color: #5d67aa;
+  color: white;
+  max-width: 576px;
+  margin: auto;
+  text-align: center;
+}
 
-    <title>Les 22</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body style="width: 576px; height: 200px">
-    <header>
-      <div class="header">
-        <div class="tekstbody">
-          <h2>Over mij</h2>
-        </div>
-        <div class="buttons">
-          <button class="menubutton">
-            <a href="./index.html">Home</a>
-          </button>
-          <button class="menubutton">
-            <a href="./overmij.html">Over Mij</a>
-          </button>
-          <button class="menubutton">
-            <a href="./contact.html">Contact</a>
-          </button>
-        </div>
-      </div>
-    </header>
-    <div class="tekstbody">
-      <h2>Welkom op mijn pagina</h2>
-      <p>
-        Ik woon in Helmond en ben beroepsfotograaf en daarnaast ook DJ. Naast natuur en eventfotograaf is mijn raakvlak als DJ dat
-        ik veel artiesten heb mogen fotograferen op festivals. Hieronder een paar foto's een indruk te krijgen.
-      </p>
-      <div class="afbeeldingen">
-        <div class="container">
-          <img src="./afbeeldingen/Ik_1.jpg" alt="Ik" />
-          <img src="./afbeeldingen/Zonsondergang.jpg" alt="Zonsondergang" />
-          <img src="./afbeeldingen/Dickensnight.jpg" alt="Dickensnight" />
-        </div>
-      </div>
-      <div class="afbeeldingen">
-        <div class="container">
-          <img src="./afbeeldingen/Popei.jpg" alt="Popei" />
-          <img src="./afbeeldingen/Jean.jpg" alt="Jean" />
-          <img src="./afbeeldingen/Armin.jpg" alt="Armin" />
-        </div>
-      </div>
-      <div class="afbeeldingen">
-        <div class="container">
-          <img src="./afbeeldingen/Darkraver.jpg" alt="Darkraver" />
-          <img src="./afbeeldingen/Roog.jpg" alt="Roog" />
-          <img src="./afbeeldingen/Ik_2.jpg" alt="Ik_2" />
-        </div>
-      </div>
-    </div>
-    <footer>
-      <div class="footer">© Erik Hover</div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+.body {
+  background-color: #5d67aa;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  max-width: 576px;
+  width: 100%;
+  height: 100%;
+}
+
+.body > div {
+  margin: auto;
+}
+
+footer {
+  position: relative;
+  max-width: 576px;
+  min-height: 200px;
+  margin: auto;
+  background-color: #5d67aa;
+  color: white;
+  text-align: center;
+}
+
+.menubutton {
+  background-color: #5daa65;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 300px;
+  height: 50px;
+}
+
+.menubutton:hover {
+  background-color: #5d67aa;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(576px, 1fr));
+  grid-template-rows: auto auto auto;
+  background-color: #5d67aa;
+  width: 10px;
+  row-gap: 10px;
+  column-gap: 50px;
+}
+
+.containercontactformulier {
+  max-width: 576px;
+  margin: auto;
+  background-color: #5d67aa;
+}
+
+.container > div {
+  background-color: #5d67aa;
+  font-size: 30px;
+  text-align: center;
+  max-width: 576px;
+  margin: auto;
+}
+
+.buttoncontainer {
+  text-align: center;
+  align-items: center;
+  background-color: #5d67aa;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.buttoncontainer > button {
+  margin: 10px;
+  border: none;
+  display: block;
+  background-color: #59ad73;
+  color: white;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  text-decoration: none;
+}
+
+.buttoncontainer > button:hover {
+  background-color: rgb(43, 226, 83);
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.forminput input {
+  text-align: left;
+  display: flex;
+  width: 100%;
+  background-color: #5daaa4;
+  color: white;
+}
+
+.opmerkingen {
+  background-color: #5d67aa;
+  color: white;
+  width: 576px;
+  height: 100px;
+  clear: both;
+  align-content: right;
+}
+
+.afbeeldingen {
+  position: relative;
+  max-width: 576px;
+  width: 100%;
+}
+
+.tekstbody {
+  background-color: #5d67aa;
+  max-width: 576px;
+  margin: auto;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(576px, 1fr));
+}
+
+img {
+  width: 150px;
+  height: 100px;
+  padding: 8px;
+}
+
+.label {
+  color: white;
+  max-width: 576px;
+}
+
+body {
+  background-color: #5d67aa;
+}
+@media only screen and (min-width: 576px) {
+  body {
+    background-color: red;
+  }
+}
