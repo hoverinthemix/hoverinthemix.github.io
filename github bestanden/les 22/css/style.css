@@ -139,6 +139,7 @@ a:hover {
 .tekstbody {
   background-color: #5d67aa;
   max-width: 576px;
+  width: 100%;
   margin: auto;
   color: white;
   padding: 10px;
