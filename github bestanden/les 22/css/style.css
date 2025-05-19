@@ -57,7 +57,7 @@ a:hover {
   grid-gap: 10px;
   background-color: #5d67aa;
   row-gap: 10px;
-  column-gap: 50px;
+  column-gap: 10px;
 }
 
 .containercontactformulier {
