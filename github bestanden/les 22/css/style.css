@@ -3,18 +3,19 @@
   color: white;
   max-width: 576px;
   margin: auto;
-  text-align: center;
+  align-content: center;
 }
 
 div.b {
   width: 576px;
+  align-content: center;
 }
 
 .body {
   background-color: #5d67aa;
   max-width: 576px;
   color: white;
-  text-align: center;
+  align-content: center;
   justify-content: center;
 }
 
@@ -29,7 +30,7 @@ footer {
   margin: auto;
   background-color: #5d67aa;
   color: white;
-  text-align: center;
+  align-content: center;
 }
 
 .menubutton {
