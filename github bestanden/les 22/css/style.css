@@ -54,8 +54,8 @@ a:hover {
   display: grid;
   max-width: 576px;
   grid-template-rows: 100% 100% 100%;
+  grid-gap: 10px;
   background-color: #5d67aa;
-  width: 10px;
   row-gap: 10px;
   column-gap: 50px;
 }
