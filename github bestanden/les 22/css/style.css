@@ -3,12 +3,12 @@
   color: white;
   max-width: 576px;
   margin: auto;
-  align-content: center;
+  text-align: center;
 }
 
 div.b {
   width: 576px;
-  align-content: center;
+  text-align: center;
 }
 
 .body {
@@ -30,7 +30,7 @@ footer {
   margin: auto;
   background-color: #5d67aa;
   color: white;
-  align-content: center;
+  text-align: center;
 }
 
 .menubutton {
