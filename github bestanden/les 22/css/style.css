@@ -129,9 +129,12 @@ a:hover {
 }
 
 .afbeeldingen {
+  display: grid;
+  grid-template-columns: auto auto auto;
   position: relative;
   max-width: 576px;
   width: 100%;
+
 }
 
 .tekstbody {
