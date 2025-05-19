@@ -52,7 +52,7 @@ a:hover {
 
 .container {
   display: grid;
-  width: 100%;
+  max-width: 576px;
   grid-template-columns: repeat(auto-fit, minmax(576px, 1fr));
   grid-template-rows: auto auto auto;
   background-color: #5d67aa;
@@ -63,6 +63,7 @@ a:hover {
 
 .containercontactformulier {
   max-width: 576px;
+  grid-template-columns: repeat(auto-fit, minmax(576px, 1fr));
   margin: auto;
   background-color: #5d67aa;
 }
