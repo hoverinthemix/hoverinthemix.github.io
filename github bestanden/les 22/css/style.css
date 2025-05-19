@@ -52,7 +52,8 @@ a:hover {
 
 .container {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-template-rows: auto auto auto;
   background-color: #5d67aa;
   width: 10px;
