@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+div.b {
+  width: 576px;
+}
+
 .body {
   background-color: #5d67aa;
   width: 576px;
