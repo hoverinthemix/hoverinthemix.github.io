@@ -132,9 +132,10 @@ a:hover {
   display: grid;
   grid-template-columns: auto auto auto;
   position: relative;
+  grid-gap: 10px;
+  padding: 10px;
   max-width: 576px;
   width: 100%;
-
 }
 
 .tekstbody {
