@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les 25</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+       <header>
+      <div class="header">
+    <h1>Mijn To-Do Lijst</h1>
+      </header>
+      <div id="accordion">
+<h3>Taken te doen</h3>
+<div>
+<input type="text" id="taskInput" placeholder="Nieuwe taak..." />
+    <button id="addTaskBtn">Toevoegen</button>
+    <ul id="taskList"></ul>
+</div>
+        <script>
+      $(document).ready(function () {
+        $("#addTaskBtn").click(function () {
+          const taskText = $("#taskInput").val().trim();
+          if (taskText !== "") {
+            $("#taskList").append(`<li>${taskText} <button class="remove">Verwijder</button></li>`);
+            $("#taskInput").val("");
+          }
+        });
 
+        $("#taskList").on("click", ".remove", function () {
+          $(this).parent().remove();
+        });
+
+        // Optioneel: Enter-key om toe te voegen
+        $("#taskInput").keypress(function (e) {
+          if (e.which === 13) {
+            $("#addTaskBtn").click();
+          }
+        });
+      });
+    </script>
+    <footer>
+      <div class="footer">© Erik Hover</div>
+    </footer>
+  </body>
+</html>
