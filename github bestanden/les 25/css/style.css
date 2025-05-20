@@ -1,1 +1,54 @@
 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  margin: auto;
+  background-color: #5d67aa;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  margin: auto;
+  background-color: #5d67aa;
+  color: white;
+  text-align: center;
+}
+
+#taskInput {
+  padding: 8px;
+  width: 300px;
+}
+#addTaskBtn {
+  padding: 8px 12px;
+  margin-left: 8px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.remove {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
